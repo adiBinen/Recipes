@@ -1,0 +1,40 @@
+.recipe-preview {
+    width: 100%;
+    .preview-recipe-img {
+        height: 170px;
+        object-fit: cover;
+    }
+    .details {
+        .preview-top-fold {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            h2 {
+                margin: 0;
+            }
+            .starsNum {
+                font-weight: 500;
+                width: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: flex-end;
+                i {
+                    font-size: 23px;
+                    color: #da9e2f;
+                }
+            }
+        }
+        .preview-by-user {
+            display: flex;
+            align-items: center;
+            .preview-user-img {
+                width: 35px;
+                height: 35px;
+                border-radius: 50%;
+                object-fit: cover;
+                margin-right: 10px;
+                background-color: #8080802b;
+            }
+        }
+    }
+}

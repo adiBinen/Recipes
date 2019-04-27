@@ -1,0 +1,18 @@
+.filter-container {
+    width: 90%;
+    margin: 0 auto;
+    .filter-title {
+        font-family: 'Courgette', cursive;
+        font-size: 50px;
+        font-weight: 500;
+        text-shadow: 0 0 1px #0000006b;
+        color: #bf4e5a;
+    }
+    .input-filter {
+        display: block;
+        width: 100%;
+        font-size: 16px;
+        padding: 10px;
+        margin-bottom: 40px;
+    }
+}

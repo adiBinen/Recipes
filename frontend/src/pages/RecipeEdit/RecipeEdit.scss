@@ -1,0 +1,81 @@
+.recipe-edit {
+    padding: 20px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+    background-color: white;
+    min-height: calc(100vh - 80px);
+    .add-edit-title {
+        color: #99303c;
+    }
+    .edit-form {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        .edit-input {
+            font-size: 16px;
+            padding: 5px 10px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        .dynamicInput {
+            margin: 10px 0;
+            .ing-span {
+                display: flex;
+                align-items: center;
+                margin-bottom: 10px;
+                .ing-input {
+                    width: 100%;
+                    padding: 5px 10px;
+                    font-size: 16px;
+                    border: none;
+                    border-bottom: 1px solid #dadada;
+                }
+                .delete-btn {
+                    padding: 5px 10px;
+                }
+            }
+        }
+        .add-ing-btn {
+            width: 130px;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            border: .7px solid #a8a8a8;
+            padding: 5px 10px;
+        }
+        .DraftEditor-root {
+            border: 1px solid #e1e1e1;
+            min-height: 200px;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        input[type=submit] {
+            cursor: pointer;
+            width: 130px;
+            margin: 0 auto;
+            background: none;
+            border: none;
+            font-size: 18px;
+            border: 1px solid #333;
+            padding: 5px 10px;
+            &:hover {
+                box-shadow: 0 0 2px #00000082;
+            }
+        }
+    }
+    .delete-recipe {
+        margin: 0 auto;
+        background: none;
+        border: none;
+        font-size: 18px;
+        border: 1px solid #99303c;
+        padding: 5px 20px;
+        color: #99303c;
+    }
+    @media (min-width: 430px) {
+        border-right: 1px solid #dfdfdf;
+        border-left: 1px solid #dfdfdf;
+        width: 70%;
+        padding: 20px 40px;
+        padding-bottom: 40px;
+    }
+}

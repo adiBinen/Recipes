@@ -1,0 +1,13 @@
+.editor-toolbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e1e1e1;
+    border: 1px solid #e1e1e1;
+    width: 100%;
+    margin-top: 10px;
+    .btn {
+        padding: 5px;
+        margin: 0 5px;
+    }
+}
